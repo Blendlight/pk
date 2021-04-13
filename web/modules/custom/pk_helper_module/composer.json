@@ -1,0 +1,13 @@
+{
+    "name": "pk_helper_module",
+    "type": "drupal-module",
+    "description": "Module to help with development",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/pk_helper_module",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/pk_helper_module",
+        "source": "http://cgit.drupalcode.org/pk_helper_module",
+    },
+}

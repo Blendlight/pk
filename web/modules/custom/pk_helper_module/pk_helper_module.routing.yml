@@ -1,0 +1,8 @@
+
+pk_helper_module.test_helper_controller_test:
+  path: '/pk_helper_module/test'
+  defaults:
+    _controller: '\Drupal\pk_helper_module\Controller\TestHelperController::test'
+    _title: 'test'
+  requirements:
+    _permission: 'access content'

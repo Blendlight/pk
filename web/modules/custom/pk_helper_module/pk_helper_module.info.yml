@@ -1,0 +1,5 @@
+name: 'pk_helper_module'
+type: module
+description: 'Module to help with development'
+core: 8.x
+package: 'Custom'

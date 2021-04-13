@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains pk_helper_module.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function pk_helper_module_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the pk_helper_module module.
+    case 'help.page.pk_helper_module':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module to help with development') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function pk_helper_module_theme() {
+  return [
+    'pk_helper_module' => [
+      'render element' => 'children',
+    ],
+  ];
+}
